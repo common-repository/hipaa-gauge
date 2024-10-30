@@ -1,0 +1,27 @@
+ul.hipaa-gauge-buttons li {
+    display: inline-block;
+}
+ul.hipaa-gauge-buttons li a.button, .hipaa-gauge-reports-wrap a.button {
+    padding: 10px 25px;
+    margin: 0;
+    font-size: 16px;
+}
+ul.hipaa-gauge-buttons li:not(:last-child) {
+    margin: 0 10px 10px 0;
+}
+.hipaa-gauge-recent-reports-wrap, .hipaa-gauge-all-reports-wrap {
+    width: 47%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.hipaa-gauge-recent-reports-wrap table td {
+    text-align: left;
+}
+.hipaa-gauge-error {
+    color: #d63638;
+    padding: 3px;
+}
+h2.hipaa-gauge-heading {
+    text-align: left;
+}
